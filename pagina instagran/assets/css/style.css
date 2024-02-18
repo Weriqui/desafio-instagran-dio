@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+#conteudo_principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 520px;
+    margin-top: 3%;
+    
+}
+
+#imagem{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#imagem img {
+    height: 630px;
+    margin-left: 0px;
+}
+#loguin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28vw;
+    
+}
+form{
+    text-align: center;
+    padding: 15% 10% 5% 10%;
+}
+
+form input,form a {
+    padding: 3.5% 0;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+form input{
+    background-color: #d3d3d31c;
+    border: solid .5px lightgray;
+    border-radius: 1px;
+    display: block ;
+}
+form input:focus{
+    outline: none;
+}
+a,p{
+    text-align: center;
+    text-decoration: none;
+}
+#face, small {
+    color: #385185;
+}
+form button{
+    width: 102%;
+    padding: 3%;       
+    background-color: #3578E5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+form img {
+    width: 180px;
+    margin-bottom: 10%;
+}
+
+#baixar_apps{
+    display: flex;
+    justify-content: center;
+}
+
+#baixar_apps img{
+    height: 40px;
+    width: 134px;
+}
+
+#baixar_apps a {
+    padding: 1%;
+}
+
+section {
+    max-width: 100%;
+}
+
+.com-borda{
+    border: solid 1px lightgrey;
+    margin-bottom: 10px;
+}
+
+#ou{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #808080c4;
+    font-weight: 400;
+    font-size: .8125rem;
+}
+hr{
+    display: inline-block;
+    width: 35%;
+    height: 1%;
+}
+
+
